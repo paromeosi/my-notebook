@@ -16,28 +16,8 @@ export default function Nav({ onColorChange, onBioClick }) {
           onClick={onBioClick}
           className="hover:text-indigo-600 focus:outline-none"
         >
-          🔗 Bio
+          🔗 info
         </button>
-        <button
-          onClick={() => window.location.reload()}
-          className="hover:text-indigo-600 focus:outline-none"
-        >
-          ✏️ Scrivi
-        </button>
-      </div>
-
-      <div className="flex items-center space-x-3">
-        {/* Color Picker */}
-        <input
-          type="color"
-          value={color}
-          onChange={handleColor}
-          title="Scegli colore"
-          className="cursor-pointer"
-        />
-        <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded">
-          📸 Screenshot!
-        </span>
       </div>
     </nav>
   )

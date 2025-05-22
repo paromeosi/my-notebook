@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
               Francesco Di Cecca (b. 1990)
             </h1>
             <p className="mb-6">
-              Nato a Gaeta nel 1990 e ora vivo a Milano. Il resto è sul web.
+              Il resto è sul web.
             </p>
             <ul className="space-y-2">
               <li>
@@ -78,7 +78,7 @@ export default function MyApp({ Component, pageProps }) {
               </li>
             </ul>
             <p className="mt-6 text-sm text-gray-600">
-              Clicca per tornare a scrivere
+              Click to go to drawing playing or whatever you like. If you want to keep a memory take a screenshot!
             </p>
           </div>
         )}
