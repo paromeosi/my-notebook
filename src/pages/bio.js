@@ -1,30 +1,39 @@
+// src/pages/bio.js
+import Link from 'next/link'
+
 export default function Bio() {
   return (
-    <div className="min-h-screen p-6">
-      <h1 className="text-2xl font-bold">🔗 Bio & Link</h1>
-      <p className="mt-4 max-w-lg">
-        Ciao, sono <strong>Il Tuo Nome</strong>, appassionato di AI, sviluppo e design minimal.
+    <div className="p-6 max-w-2xl mx-auto space-y-6">
+      <h1 className="text-3xl font-bold">Ciao, sono Francesco Di Cecca</h1>
+      <p>
+        Non sono uno sviluppatore professionista, ma un appassionato di tecnologia:
+        ho un lavoro “tradizionale” e questo progetto è il mio hobby.  
+        Qui sotto trovi i link ai miei GPT preferiti e al mio profilo LinkedIn.
       </p>
-      <ul className="mt-6 space-y-2">
+      <ul className="space-y-2">
         <li>
-          <a href="https://www.linkedin.com/in/tuo-profilo" target="_blank" rel="noopener noreferrer"
-             className="underline hover:text-indigo-600">
-            LinkedIn
+          🔗{' '}
+          <a
+            href="https://www.linkedin.com/in/francesco-di-cecca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-indigo-600"
+          >
+            Francesco su LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://example.com/gpt/marketing" target="_blank" rel="noopener noreferrer"
-             className="underline hover:text-indigo-600">
-            GPT Marketing
-          </a>
-        </li>
-        <li>
-          <a href="https://example.com/gpt/coding" target="_blank" rel="noopener noreferrer"
-             className="underline hover:text-indigo-600">
-            GPT Coding
+          🤖{' '}
+          <a
+            href="https://chatgpt.com/g/g-CQm7LOrMb-dream-explorer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-indigo-600"
+          >
+            Dream Explorer GPT
           </a>
         </li>
       </ul>
     </div>
-  );
+  )
 }
